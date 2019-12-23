@@ -7,7 +7,7 @@ public class BorrarLibroException extends Exception{
 	private final String mensaje;
     public BorrarLibroException() {
         super();
-        this.mensaje = "El libro que se intenta eliminar no existe.";
+        this.mensaje = "El libro que se intenta eliminar no existe. ";
     }
     
     public String getMensaje() {
